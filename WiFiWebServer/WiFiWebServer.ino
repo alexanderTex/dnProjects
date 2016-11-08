@@ -39,11 +39,8 @@ void setup() {
   pinMode(RED_LED, OUTPUT);      // set the LED pin mode
   pinMode(GREEN_LED, OUTPUT);      // set the LED pin mode
   pinMode(YELLOW_LED, OUTPUT);      // set the LED pin mode
-
-
-  
-  pinMode(2,INPUT); //DistanceSensorEcho
-  pinMode(3,OUTPUT);//DistanceSensorTrigger
+  pinMode(2,INPUT);             //DistanceSensorEcho
+  pinMode(3,OUTPUT);            //DistanceSensorTrigger
   // attempt to connect to Wifi network:
   Serial.print("Attempting to connect to Network named: ");
   // print the network name (SSID);
